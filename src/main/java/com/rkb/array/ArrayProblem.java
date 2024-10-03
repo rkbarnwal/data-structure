@@ -10,7 +10,7 @@ public class ArrayProblem {
     }
 
     public static int[] getIndices(final int[] numbers, final int sum) {
-        Map<Integer, Integer> numMap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> numMap = new HashMap<>();
         int numToFind;
         for (int i = 0; i < numbers.length; i++) {
             numToFind = sum - numbers[i];
